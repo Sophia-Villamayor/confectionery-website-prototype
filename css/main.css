@@ -134,16 +134,14 @@ p {
   border: solid #330c00;
 }
 
-
-
 .shop {
   position: relative;
   margin-top: 1rem;
 }
 
-.img-flex {
+.picture .img-flex {
   display: block;
-  width: 95%;
+  width: 100%;
   margin: 0;
 }
 
@@ -178,6 +176,58 @@ a {
 }
 
 .btn-big {
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #3b6182;
+  color: #fff;
+}
+
+.recipe {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.recipe-img .img-flex {
+  display: block;
+  width: 100%;
+  padding-top: 1rem;
+  margin: 0;
+}
+
+.paragraph h3 {
+  position: absolute;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  padding: .5rem;
+  border-radius: 8px;
+  left: 27%;
+  transform: translateY(-200%);
+  width: 70%;
+  margin: 0;
+}
+
+.recipe-img img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.paragraph .btn {
+  position: absolute;
+  font-size: 1rem;
+  color: #333;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: .5rem 2rem;
+  left: 64%;
+  transform: translateY(-150%);
+}
+
+.btn-small {
   font-size: 1rem;
 }
 
