@@ -22,58 +22,48 @@ body {
 }
 
 header {
-  background-color: #835c3b;
+  background-color: #330c00;
   color: #fff;
 }
 
-h1 {
-  font-size: 1.5rem;
-  margin: 0;
-}
-
-.title {
-  margin: auto;
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  padding: .5em 0;
-}
-
-img {
-  margin: 0 1rem;
-  width: 50px;
-}
-
-.navigation {
-  list-style-type: none;
-  display: flex;
-  text-align: center;
-  margin: 0;
-  font-size: 1rem;
-  padding: 0;
-  border-top: 2px solid #835c3b;
-  border-bottom: 2px solid #835c3b;
-  border-width: thin;
-}
-
-ul li {
-  width: 33.33%;
-  border-right: 2px solid #835c3b;
-}
-
-ul li:last-child {
-  border: none;
-}
-
-.navigation a {
+header h1 {
   display: block;
-  width: 100%;
-  padding: .4rem 0;
-  text-decoration: none;
-  color: #fff;
+  text-align: center;
+  align-items: center;
+  padding: .75rem 0;
+  padding-bottom: 1.5rem;
+  margin: 0;
 }
 
-.navigation a:hover {
+nav {
+  display: block;
+  background-color: #835c3b;
+  padding-bottom: 1rem;
+  padding-left: .35rem;
+}
+
+nav ul {
+  font-size: 1.125rem;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-size: 1.125rem;
+  padding-bottom: .5rem;
+  list-style-type: none;
+}
+
+nav a {
+  display: flex;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+  padding: 5px;
+  margin: 0;
+}
+
+nav a:hover {
   background-color: #330c00;
   color: #fff;
 }
@@ -99,7 +89,7 @@ ul li:last-child {
   display: block;
   position: absolute;
   text-align: left;
-  width: 30%;
+  width: 35%;
   margin: 1rem 0 0 1rem;
 }
 
@@ -117,7 +107,6 @@ p {
 
 .link-card .btn {
   display: inline-block;
-  font-family: Dosis, sans-serif;
   color: #fff;
   font-size: 1rem;
   background-color: #835c3b;
@@ -139,7 +128,7 @@ p {
   margin-top: 1rem;
 }
 
-.picture .img-flex {
+.img-flex {
   display: block;
   width: 100%;
   margin: 0;
@@ -212,10 +201,6 @@ a {
   width: 100%;
 }
 
-a {
-  text-decoration: none;
-}
-
 .paragraph .btn {
   position: absolute;
   font-size: 1rem;
@@ -231,7 +216,201 @@ a {
   font-size: 1rem;
 }
 
-.btn:hover {
+.btn-small:hover {
   background-color: #3b6182;
   color: #fff;
+}
+
+.cards {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+.rewards-card {
+  display: block;
+  position: relative;
+  border-radius: 3px;
+  background-color: #dcd4cd;
+  border: solid;
+  border-color: #dcd4cd;
+  text-align: right;
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.rewards-card:hover {
+  color: #330c00;
+}
+
+.reward {
+  display: block;
+  position: absolute;
+  text-align: left;
+  width: 35%;
+  margin: 1rem 0 0 1rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin: 5rem 1rem 1rem 0;
+  text-align: right;
+}
+
+.rewards-card .btn {
+  display: inline-block;
+  color: #fff;
+  font-size: 1rem;
+  background-color: #835c3b;
+  padding: .4em .75em .5em;
+  margin: 0 1rem 1rem 0;
+  border-radius: 8px;
+  border: solid;
+  border-color: #835c3b;
+}
+
+.rewards-card:hover .btn {
+  color: #fff;
+  background-color: #330c00;
+  border: solid #330c00;
+}
+
+.card {
+  padding-top: 1rem;
+  margin: 0;
+  display: inline-block;
+}
+
+.card-img {
+  align-items: center;
+  display: block;
+  margin: 0;
+}
+
+.chocolate-img {
+  display: block;
+  text-align: center;
+  margin: 0 4.75rem;
+  width: 50%;
+}
+
+.card-body h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin: 1rem 0 0;
+}
+
+.card-body p {
+  text-align: center;
+  line-height: 1.3;
+  font-size: 1rem;
+  margin: 0 0 1rem;
+}
+
+.end-img {
+  padding-top: 1rem;
+  width: 100%;
+  display: block;
+}
+
+.feet {
+  text-align: center;
+  font-weight: normal;
+}
+
+.social {
+  margin: 2rem 4rem;
+  padding: 0 .1rem;
+  display: flex;
+}
+
+.social-media {
+  display: block;
+  width: 100%;
+}
+
+.social > li {
+  margin: 0 .5em;
+  width: 3em;
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+  header h1 {
+  padding-bottom: .5rem;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  li {
+    align-content: center;
+    width: 50%;
+  }
+
+  }
+
+  .link-image {
+    display: block;
+    position: absolute;
+    text-align: left;
+    width: 38%;
+    bottom: 60%;
+    margin: 1rem 0 0 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+  }
+
+  .text h2 {
+    font-size: 1.5rem;
+    text-align: left;
+    width: 43%;
+    left: 52.5%;
+    transform: translateY(-240%);
+    margin: 0;
+  }
+
+  .text .btn {
+    left: 73%;
+    transform: translateY(-160%);
+  }
+
+  .paragraph h3 {
+    font-size: 1.5rem;
+    text-align: left;
+    left: 37%;
+    transform: translateY(-180%);
+    width: 58%;
+    margin: 0;
+  }
+  .paragraph .btn {
+    left: 69%;
+    transform: translateY(-150%);
+
 }
