@@ -234,7 +234,6 @@ ul {
   list-style-type: none;
 }
 
-
 .rewards-card {
   display: block;
   position: relative;
@@ -260,7 +259,7 @@ ul {
   margin: 1rem 0 0 1rem;
 }
 
-h2 {
+.reward h2 {
   font-size: 1.3rem;
   margin: 5rem 1rem 1rem 0;
   text-align: right;
@@ -352,7 +351,7 @@ h2 {
   }
 
   header h1 {
-  padding-bottom: .5rem;
+    padding-bottom: .5rem;
   }
 
   ul {
@@ -364,8 +363,6 @@ h2 {
   li {
     align-content: center;
     width: 50%;
-  }
-
   }
 
   .link-image {
@@ -409,8 +406,10 @@ h2 {
     width: 58%;
     margin: 0;
   }
+
   .paragraph .btn {
     left: 69%;
     transform: translateY(-150%);
+  }
 
 }
