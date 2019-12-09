@@ -121,6 +121,7 @@ p {
   color: #fff;
   background-color: #330c00;
   border: solid #330c00;
+  border-color: #330c00;
 }
 
 .shop {
@@ -158,10 +159,11 @@ a {
   font-size: 1rem;
   color: #333;
   background-color: #fff;
+  border: solid #fff;
   border-radius: 8px;
   padding: .5rem;
   left: 68%;
-  transform: translateY(-190%);
+  transform: translateY(-160%);
 }
 
 .btn-big {
@@ -170,6 +172,7 @@ a {
 
 .btn:hover {
   background-color: #3b6182;
+  border: solid #3b6182;
   color: #fff;
 }
 
@@ -206,10 +209,12 @@ a {
   font-size: 1rem;
   color: #333;
   background-color: #fff;
+  border: solid;
+  border-color: #fff;
   border-radius: 8px;
   padding: .5rem 2rem;
   left: 64%;
-  transform: translateY(-150%);
+  transform: translateY(-130%);
 }
 
 .btn-small {
@@ -218,6 +223,8 @@ a {
 
 .btn-small:hover {
   background-color: #3b6182;
+  border: solid;
+  border-color: #3b6182;
   color: #fff;
 }
 
@@ -249,6 +256,9 @@ ul {
 
 .rewards-card:hover {
   color: #330c00;
+  border: solid;
+  border-color: #330c00;
+  background-color: #835c3b;
 }
 
 .reward {
@@ -409,6 +419,36 @@ ul {
 
   .paragraph .btn {
     left: 69%;
+    transform: translateY(-150%);
+  }
+
+  .shop {
+
+  }
+
+  .text h2 {
+    transform: translateY(-260%);
+  }
+
+  .picture img {
+    width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .text .btn {
+    left: 71.5%;
+    transform: translateY(-160%);
+  }
+
+  .paragraph h3 {
+    transform: translateY(-192%);
+  }
+
+  .paragraph .btn {
+    left: 67%;
     transform: translateY(-150%);
   }
 
