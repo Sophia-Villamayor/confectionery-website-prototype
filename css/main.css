@@ -222,7 +222,7 @@ a {
   transform: translateY(-160%);
 }
 
-.btn-big {
+.btn-small {
   font-size: 1rem;
 }
 
@@ -373,25 +373,24 @@ a {
 .paragraph .btn {
   position: absolute;
   font-size: 1rem;
-  color: #333;
-  background-color: #fff;
+  color: #fff;
+  background-color: #835c3b;
   border: solid;
-  border-color: #fff;
+  border-color: #835c3b;
   border-radius: 8px;
   padding: .5rem 2rem;
   left: 64%;
   transform: translateY(-130%);
 }
 
-.btn-small {
+.btn-big {
   font-size: 1rem;
 }
 
-.btn-small:hover {
-  background-color: #3b6182;
+.btn-big:hover {
+  background-color: #330c00;
   border: solid;
-  border-color: #3b6182;
-  color: #fff;
+  border-color: #330c00;
 }
 
 .cards {
@@ -601,7 +600,7 @@ ul {
     text-align: left;
     width: 36%;
     bottom: 50%;
-    margin: 1rem 0 0 0;
+    margin: 1rem 0 0;
   }
 
   .link-card,
@@ -707,6 +706,7 @@ ul {
 
   .catering {
     display: inline-block;
+    width: 42%;
     margin-left: .2rem;
   }
 
@@ -718,11 +718,13 @@ ul {
 
   .catering h2 {
     text-align: center;
+    margin: 5.2rem 0 0;
     padding: 0 0 0 .5rem;
   }
 
   .catering p {
     text-align: center;
+    margin-bottom: .5rem;
     font-size: 1rem;
   }
 
@@ -749,10 +751,12 @@ ul {
 
   .second-shop h2 {
     text-align: center;
+    margin: 5.2rem 0 0;
   }
 
   .second-shop p {
     font-size: 1rem;
+    margin-bottom: .5rem;
     text-align: center;
   }
 
@@ -782,17 +786,19 @@ ul {
 
   .about-us h2 {
     text-align: center;
+    margin: 5.2rem 0 0;
   }
 
   .about-us p {
     text-align: center;
     font-size: 1rem;
+    margin: 0 0 .5rem;
   }
 
   .about-us .about-button {
     display: inline-block;
     bottom: 10%;
-    margin: 0 5rem 1rem 0;
+    margin: 0 4rem 1rem 0;
   }
 
   .second-rewards {
@@ -800,17 +806,18 @@ ul {
     display: inline-block;
     width: 47.5%;
     padding: 0;
-    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
 
   .reward-img {
     width: 50%;
     left: 17%;
-    bottom: 65%;
+    bottom: 61%;
   }
 
   .second-rewards h2 {
     text-align: center;
+    margin: 5.2rem 0 0;
   }
 
   .second-rewards .second-btn {
@@ -821,15 +828,36 @@ ul {
   .recipes .paragraph h3 {
     font-size: 2rem;
     text-align: left;
-    left: 38%;
+    left: 41%;
     transform: translateY(-183%);
     width: 52%;
     margin: 0;
   }
 
-  .recipes .paragraph .btn {
+  .recipes .btn {
+    font-size: 1.5rem;
+    width: 24%;
     left: 69%;
     transform: translateY(-150%);
+  }
+
+  .card {
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    width: 50%;
+  }
+
+  .card h2 {
+    margin-top: 0;
+  }
+
+  .card p {
+    margin: 0;
+  }
+
+  .parent footer {
+    font-size: 1.5rem;
   }
 
 }
