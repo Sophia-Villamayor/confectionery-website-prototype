@@ -124,6 +124,62 @@ p {
   border-color: #330c00;
 }
 
+.catering {
+  display: block;
+  position: relative;
+  border-radius: 3px;
+  background-color: #dcd4cd;
+  border: solid;
+  border-color: #dcd4cd;
+  text-align: right;
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.catering:hover {
+  color: #330c00;
+}
+
+.catering-image {
+  display: block;
+  position: absolute;
+  text-align: left;
+  width: 35%;
+  margin: 1rem 0 0 1rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin: 5rem 1rem 1rem 0;
+  text-align: right;
+}
+
+p {
+  margin: 0 1rem 1rem 0;
+  display: block;
+  font-size: .95rem;
+}
+
+.catering .click {
+  display: inline-block;
+  color: #fff;
+  font-size: 1rem;
+  background-color: #835c3b;
+  padding: .4em .75em .5em;
+  margin: 0 1rem 1rem 0;
+  border-radius: 8px;
+  border: solid;
+  border-color: #835c3b;
+}
+
+.catering:hover .click {
+  color: #fff;
+  background-color: #330c00;
+  border: solid #330c00;
+  border-color: #330c00;
+}
+
 .shop {
   position: relative;
   margin-top: 1rem;
@@ -174,6 +230,116 @@ a {
   background-color: #3b6182;
   border: solid #3b6182;
   color: #fff;
+}
+
+.second-shop {
+  display: none;
+  position: relative;
+  border-radius: 3px;
+  background-color: #dcd4cd;
+  border: solid;
+  border-color: #dcd4cd;
+  text-align: right;
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.second-shop:hover {
+  color: #330c00;
+}
+
+.second-img {
+  display: block;
+  position: absolute;
+  text-align: left;
+  width: 35%;
+  margin: 1rem 0 0 1rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin: 5rem 1rem 1rem 0;
+  text-align: right;
+}
+
+p {
+  margin: 0 1rem 1rem 0;
+  display: block;
+  font-size: .95rem;
+}
+
+.second-shop .second-button {
+  display: inline-block;
+  color: #fff;
+  font-size: 1rem;
+  background-color: #835c3b;
+  padding: .4em .75em .5em;
+  margin: 0 1rem 1rem 0;
+  border-radius: 8px;
+  border: solid;
+  border-color: #835c3b;
+}
+
+.second-shop:hover .second-button {
+  color: #fff;
+  background-color: #330c00;
+  border: solid #330c00;
+  border-color: #330c00;
+}
+
+.about-us {
+  display: none;
+  position: relative;
+  border-radius: 3px;
+  background-color: #dcd4cd;
+  border: solid;
+  border-color: #dcd4cd;
+  text-align: right;
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.about-us:hover {
+  color: #330c00;
+}
+
+.about-img {
+  position: absolute;
+  text-align: left;
+  width: 35%;
+  margin: 1rem 0 0 1rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin: 5rem 1rem 1rem 0;
+  text-align: right;
+}
+
+p {
+  margin: 0 1rem 1rem 0;
+  display: block;
+  font-size: .95rem;
+}
+
+.about-us .about-button {
+  color: #fff;
+  font-size: 1rem;
+  background-color: #835c3b;
+  padding: .4em .75em .5em;
+  margin: 0 1rem 1rem 0;
+  border-radius: 8px;
+  border: solid;
+  border-color: #835c3b;
+}
+
+.about-us:hover .about-button {
+  color: #fff;
+  background-color: #330c00;
+  border: solid #330c00;
+  border-color: #330c00;
 }
 
 .recipe {
@@ -256,9 +422,6 @@ ul {
 
 .rewards-card:hover {
   color: #330c00;
-  border: solid;
-  border-color: #330c00;
-  background-color: #835c3b;
 }
 
 .reward {
@@ -269,10 +432,16 @@ ul {
   margin: 1rem 0 0 1rem;
 }
 
-.reward h2 {
+h2 {
   font-size: 1.3rem;
   margin: 5rem 1rem 1rem 0;
   text-align: right;
+}
+
+p {
+  margin: 0 1rem 1rem 0;
+  display: block;
+  font-size: .95rem;
 }
 
 .rewards-card .btn {
@@ -291,6 +460,57 @@ ul {
   color: #fff;
   background-color: #330c00;
   border: solid #330c00;
+  border-color: #330c00;
+}
+
+.second-rewards {
+  display: none;
+  position: relative;
+  border-radius: 3px;
+  background-color: #dcd4cd;
+  border: solid;
+  border-color: #dcd4cd;
+  text-align: right;
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.second-rewards:hover {
+  color: #330c00;
+}
+
+.reward-img {
+  display: block;
+  position: absolute;
+  text-align: left;
+  width: 35%;
+  margin: 1rem 0 0 1rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin: 5rem 1rem 1rem 0;
+  text-align: right;
+}
+
+.second-rewards .second-btn {
+  display: none;
+  color: #fff;
+  font-size: 1rem;
+  background-color: #835c3b;
+  padding: .4em .75em .5em;
+  margin: 0 1rem 1rem 0;
+  border-radius: 8px;
+  border: solid;
+  border-color: #835c3b;
+}
+
+.second-rewards:hover .second-btn {
+  color: #fff;
+  background-color: #330c00;
+  border: solid #330c00;
+  border-color: #330c00;
 }
 
 .card {
@@ -379,9 +599,9 @@ ul {
     display: block;
     position: absolute;
     text-align: left;
-    width: 38%;
-    bottom: 60%;
-    margin: 1rem 0 0 1rem;
+    width: 36%;
+    bottom: 50%;
+    margin: 1rem 0 0 0;
   }
 
   .link-card,
@@ -396,6 +616,8 @@ ul {
     margin-bottom: .5rem;
   }
 
+
+
   .shop .text h2 {
     font-size: 1.5rem;
     text-align: left;
@@ -408,6 +630,10 @@ ul {
   .shop .text .btn {
     left: 73%;
     transform: translateY(-138%);
+  }
+
+  .second-shop {
+    display: none;
   }
 
   .recipes .paragraph h3 {
@@ -445,6 +671,171 @@ ul {
 
   .card .card-body p {
     margin: 0 0 0 2rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .link-card {
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-right: .2rem;
+  }
+
+  .link-image {
+    width: 50%;
+    left: 25%;
+    bottom: 60%;
+  }
+
+  .link-card h2 {
+    padding: 0 0 0 .5rem;
+  }
+
+  .link-card p {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .link-card .button {
+    margin: 0 5rem 1rem 0;
+  }
+
+  .catering {
+    display: inline-block;
+    margin-left: .2rem;
+  }
+
+  .catering-image {
+    width: 57%;
+    left: 17%;
+    bottom: 60%;
+  }
+
+  .catering h2 {
+    text-align: center;
+    padding: 0 0 0 .5rem;
+  }
+
+  .catering p {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .catering .click {
+    margin: 0 5rem 1rem 0;
+  }
+
+  .shop {
+    display: none;
+  }
+
+  .second-shop {
+    display: inline-block;
+    width: 47.5%;
+    padding: 0;
+    margin-left: 1.5rem;
+  }
+
+  .second-img {
+    width: 50%;
+    left: 17%;
+    bottom: 60%;
+  }
+
+  .second-shop h2 {
+    text-align: center;
+  }
+
+  .second-shop p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .second-shop .second-button {
+    display: inline-block;
+    margin: 0 5rem 1rem 0;
+  }
+
+  .rewards-card {
+    display: none;
+  }
+
+  .about-us {
+    float: right;
+    display: inline-block;
+    width: 42%;
+    padding: 0;
+    margin-right: 1.5rem;
+  }
+
+  .about-img {
+    display: block;
+    width: 56%;
+    left: 17%;
+    bottom: 61%;
+  }
+
+  .about-us h2 {
+    text-align: center;
+  }
+
+  .about-us p {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .about-us .about-button {
+    display: inline-block;
+    bottom: 10%;
+    margin: 0 5rem 1rem 0;
+  }
+
+  .rewards-card {
+    display: none;
+  }
+
+  .second-rewards {
+    float: right;
+    display: inline-block;
+    width: 47.5%;
+    padding: 0;
+    margin-left: 1.5rem;
+  }
+
+  .reward-img {
+    width: 50%;
+    left: 17%;
+    bottom: 65%;
+  }
+
+  .second-rewards h2 {
+    text-align: center;
+  }
+
+  .second-rewards .second-btn {
+    display: inline-block;
+    margin: 0 5rem 1rem 0;
+  }
+
+  .recipes .paragraph h3 {
+    font-size: 2rem;
+    text-align: left;
+    left: 38%;
+    transform: translateY(-183%);
+    width: 52%;
+    margin: 0;
+  }
+
+  .recipes .paragraph .btn {
+    left: 69%;
+    transform: translateY(-150%);
   }
 
 }
