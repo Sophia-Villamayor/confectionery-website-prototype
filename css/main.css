@@ -105,7 +105,7 @@ p {
   font-size: .95rem;
 }
 
-.link-card .btn {
+.link-card .button {
   display: inline-block;
   color: #fff;
   font-size: 1rem;
@@ -117,7 +117,7 @@ p {
   border-color: #835c3b;
 }
 
-.link-card:hover .btn {
+.link-card:hover .button {
   color: #fff;
   background-color: #330c00;
   border: solid #330c00;
@@ -384,72 +384,67 @@ ul {
     margin: 1rem 0 0 1rem;
   }
 
+  .link-card,
   h2 {
     font-size: 1.5rem;
     margin-bottom: 0;
   }
 
+  .link-card,
   p {
     font-size: 1.3rem;
     margin-bottom: .5rem;
   }
 
-  .text h2 {
+  .shop .text h2 {
     font-size: 1.5rem;
     text-align: left;
     width: 43%;
-    left: 52.5%;
+    left: 54%;
     transform: translateY(-240%);
     margin: 0;
   }
 
-  .text .btn {
+  .shop .text .btn {
     left: 73%;
-    transform: translateY(-160%);
+    transform: translateY(-138%);
   }
 
-  .paragraph h3 {
+  .recipes .paragraph h3 {
     font-size: 1.5rem;
     text-align: left;
-    left: 37%;
-    transform: translateY(-180%);
+    left: 38%;
+    transform: translateY(-183%);
     width: 58%;
     margin: 0;
   }
 
-  .paragraph .btn {
+  .recipes .paragraph .btn {
     left: 69%;
     transform: translateY(-150%);
   }
 
-  .shop {
-
+  .rewards-card h2 {
+    width: 75%;
+    font-size: 1.3rem;
+    margin: 5rem 1rem 1rem 5.2rem;
+    text-align: right;
   }
 
-  .text h2 {
-    transform: translateY(-260%);
+  .rewards-card img {
+    margin-left: .5rem;
   }
 
-  .picture img {
-    width: 100%;
+  .card img {
+    margin-left: 5rem;
   }
 
-  a {
-    text-decoration: none;
+  .card h2 {
+    margin-left: 1.5rem;
   }
 
-  .text .btn {
-    left: 71.5%;
-    transform: translateY(-160%);
-  }
-
-  .paragraph h3 {
-    transform: translateY(-192%);
-  }
-
-  .paragraph .btn {
-    left: 67%;
-    transform: translateY(-150%);
+  .card .card-body p {
+    margin: 0 0 0 2rem;
   }
 
 }
