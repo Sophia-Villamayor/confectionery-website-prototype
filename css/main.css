@@ -987,32 +987,32 @@ ul {
     margin: 0;
   }
 
-    .recipes .btn-big {
-      font-size: 1.5rem;
-      width: 17%;
-    }
+  .recipes .btn-big {
+    font-size: 1.5rem;
+    width: 17%;
+  }
 
-    .second-rewards {
-      width: 42%;
-      margin: 0 1.5rem 8rem;
-    }
+  .second-rewards {
+    width: 42%;
+    margin: 0 1.5rem 8rem;
+  }
 
-    .second-rewards .reward-img {
-      left: 18%;
-      bottom: 55%;
-    }
+  .second-rewards .reward-img {
+    left: 18%;
+    bottom: 55%;
+  }
 
-    .second-rewards h2 {
-      margin-top: 8rem;
-    }
+  .second-rewards h2 {
+    margin-top: 8rem;
+  }
 
-    .second-rewards p {
-      margin-right: 0;
-    }
+  .second-rewards p {
+    margin-right: 0;
+  }
 
-    .second-rewards .second-btn {
-      margin-right: 7rem;
-    }
+  .second-rewards .second-btn {
+    margin-right: 7rem;
+  }
 
   .social {
     margin-top: 4em;
