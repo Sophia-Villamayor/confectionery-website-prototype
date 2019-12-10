@@ -69,8 +69,7 @@ nav a:hover {
 }
 
 .link-card {
-  display: block;
-  position: relative;
+  display: inline-block;
   border-radius: 3px;
   background-color: #dcd4cd;
   border: solid;
@@ -213,9 +212,9 @@ a {
 .text .btn {
   position: absolute;
   font-size: 1rem;
-  color: #333;
-  background-color: #fff;
-  border: solid #fff;
+  color: #fff;
+  background-color: #835c3b;
+  border: solid #835c3b;
   border-radius: 8px;
   padding: .5rem;
   left: 68%;
@@ -227,8 +226,8 @@ a {
 }
 
 .btn:hover {
-  background-color: #3b6182;
-  border: solid #3b6182;
+  background-color: #330c00;
+  border: solid #330c00;
   color: #fff;
 }
 
@@ -594,12 +593,16 @@ ul {
     width: 50%;
   }
 
+  .link-card {
+    display: block;
+  }
+
   .link-image {
     display: block;
     position: absolute;
     text-align: left;
     width: 36%;
-    bottom: 50%;
+    bottom: 72%;
     margin: 1rem 0 0;
   }
 
@@ -611,6 +614,16 @@ ul {
 
   .link-card,
   p {
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+  }
+
+  .catering h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .catering p {
     font-size: 1.3rem;
     margin-bottom: .5rem;
   }
@@ -686,12 +699,14 @@ ul {
   }
 
   .link-image {
-    width: 50%;
-    left: 25%;
-    bottom: 60%;
+    display: block;
+    width: 24%;
+    left: 16%;
+    bottom: 70%;
   }
 
   .link-card h2 {
+    margin-top: 5.2rem;
     padding: 0 0 0 .5rem;
   }
 
@@ -712,6 +727,7 @@ ul {
 
   .catering-image {
     width: 57%;
+    max-width: 57%;
     left: 17%;
     bottom: 60%;
   }
@@ -745,6 +761,7 @@ ul {
 
   .second-img {
     width: 50%;
+    max-width: 50%;
     left: 17%;
     bottom: 60%;
   }
@@ -780,6 +797,7 @@ ul {
   .about-img {
     display: block;
     width: 56%;
+    max-width: 56%;
     left: 17%;
     bottom: 61%;
   }
@@ -811,6 +829,7 @@ ul {
 
   .reward-img {
     width: 50%;
+    max-width: 50%;
     left: 17%;
     bottom: 61%;
   }
@@ -859,5 +878,16 @@ ul {
   .parent footer {
     font-size: 1.5rem;
   }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+
 
 }
