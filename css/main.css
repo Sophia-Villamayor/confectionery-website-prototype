@@ -88,6 +88,8 @@ nav a:hover {
 }
 
 .link-card:hover {
+  background-color: #ffd9b3;
+  border-color: #ffd9b3;
   color: #330c00;
 }
 
@@ -144,6 +146,8 @@ p {
 }
 
 .catering:hover {
+  background-color: #ffd9b3;
+  border-color: #ffd9b3;
   color: #330c00;
 }
 
@@ -252,6 +256,8 @@ a {
 }
 
 .second-shop:hover {
+  background-color: #ffd9b3;
+  border-color: #ffd9b3;
   color: #330c00;
 }
 
@@ -308,6 +314,8 @@ a {
 }
 
 .about-us:hover {
+  background-color: #ffd9b3;
+  border-color: #ffd9b3;
   color: #330c00;
 }
 
@@ -426,6 +434,8 @@ ul {
 }
 
 .rewards-card:hover {
+  background-color: #ffd9b3;
+  border-color: #ffd9b3;
   color: #330c00;
 }
 
@@ -482,6 +492,8 @@ ul {
 }
 
 .second-rewards:hover {
+  background-color: #ffd9b3;
+  border-color: #ffd9b3;
   color: #330c00;
 }
 
@@ -515,7 +527,6 @@ ul {
   color: #fff;
   background-color: #330c00;
   border: solid #330c00;
-  border-color: #330c00;
 }
 
 .card {
