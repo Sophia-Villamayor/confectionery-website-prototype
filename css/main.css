@@ -38,6 +38,7 @@ header h1 {
 nav {
   display: block;
   background-color: #835c3b;
+  margin-bottom: 1rem;
   padding-bottom: 1rem;
   padding-left: .35rem;
 }
@@ -50,6 +51,7 @@ nav ul {
 
 li {
   font-size: 1.125rem;
+  margin-top: 1rem;
   padding-bottom: .5rem;
   list-style-type: none;
 }
@@ -58,12 +60,17 @@ nav a {
   display: flex;
   text-decoration: none;
   white-space: nowrap;
+  background-color: #835c3b;
+  border: solid;
+  border-color: #835c3b;
   color: #fff;
   padding: 5px;
   margin: 0;
 }
 
 nav a:hover {
+  border: solid;
+  border-color: #330c00;
   background-color: #330c00;
   color: #fff;
 }
@@ -369,7 +376,7 @@ a {
   width: 100%;
 }
 
-.paragraph .btn {
+.paragraph .btn-big {
   position: absolute;
   font-size: 1rem;
   color: #fff;
@@ -1016,6 +1023,116 @@ ul {
 
   .social {
     margin-top: 4em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  nav a {
+    width: 15%;
+  }
+
+  .link-card .link-image {
+    width: 17.5%;
+    left: 14%;
+    bottom: 49.7%;
+  }
+
+  .link-card .button {
+    margin-right: 14rem;
+  }
+
+  .catering .catering-image {
+    width: 42%;
+    left: 26%;
+    bottom: 48.5%;
+  }
+
+  .catering .click {
+    margin-right: 14rem;
+  }
+
+  .second-shop .second-img {
+    width: 42%;
+    left: 26%;
+    bottom: 47.5%;
+  }
+
+  .second-shop .second-button {
+    margin-right: 13.5rem;
+  }
+
+  .about-us .about-img {
+    width: 42%;
+    left: 26%;
+    bottom: 47.5%;
+  }
+
+  .about-us .about-button {
+    margin-right: 13.5rem;
+  }
+
+  .recipe {
+    position: relative;
+    margin-top: 1rem;
+  }
+
+  .recipe-img .img-flex {
+    display: block;
+    width: 55%;
+    padding-top: 1rem;
+    margin: 0 0 0 1.5rem;
+  }
+
+  .paragraph h3 {
+    width: 20%;
+    bottom: -70%;
+    left: 85%;
+  }
+
+  .paragraph .btn-big {
+    width: 10%;
+    bottom: -74.5%;
+    left: 60%;
+  }
+
+  .second-rewards h2 {
+    width: 50%;
+    margin-left: 8rem;
+    padding-top: 1em;
+    bottom: 48.5%;
+  }
+
+  .second-rewards .reward-img {
+    width: 42%;
+    left: 26%;
+    bottom: 48.5%;
+  }
+
+  .second-rewards .second-btn {
+    margin-right: 14rem;
+  }
+
+  .card {
+    margin-left: 5rem;
+  }
+
+  .card img {
+    margin: 0 0 0 11rem;
+    padding: 0;
+  }
+
+  .card h2 {
+    font-size: 3rem;
+  }
+
+  .card p {
+    font-size: 1.5rem;
   }
 
 }
