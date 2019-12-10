@@ -727,7 +727,6 @@ ul {
 
   .catering-image {
     width: 57%;
-    max-width: 57%;
     left: 17%;
     bottom: 60%;
   }
@@ -761,7 +760,6 @@ ul {
 
   .second-img {
     width: 50%;
-    max-width: 50%;
     left: 17%;
     bottom: 60%;
   }
@@ -797,7 +795,6 @@ ul {
   .about-img {
     display: block;
     width: 56%;
-    max-width: 56%;
     left: 17%;
     bottom: 61%;
   }
@@ -829,7 +826,6 @@ ul {
 
   .reward-img {
     width: 50%;
-    max-width: 50%;
     left: 17%;
     bottom: 61%;
   }
@@ -888,6 +884,138 @@ ul {
     line-height: 1.5;
   }
 
+  .link-card {
+    width: 42%;
+    margin-left: 1.5rem;
+  }
 
+  .link-card .link-image {
+    left: 12%;
+    bottom: 62%;
+  }
+
+  .link-card h2 {
+    text-align: center;
+    margin-top: 8rem;
+  }
+
+  .link-card p {
+    margin-right: 0;
+  }
+
+  .link-card .button {
+    margin-right: 7.5rem;
+  }
+
+  .catering {
+    float: right;
+    margin-right: 1.5rem;
+  }
+
+  .catering .catering-image {
+    bottom: 55%;
+  }
+
+  .catering h2 {
+    margin-top: 8rem;
+  }
+
+  .catering p {
+    margin-right: 0;
+  }
+
+  .catering .click {
+    margin-right: 7.5rem;
+  }
+
+  .second-shop {
+    width: 42%;
+    margin-left: 1.5rem;
+  }
+
+  .second-shop img {
+    width: 55%;
+    left: 17%;
+    bottom: 55%;
+  }
+
+  .second-shop h2 {
+    margin-top: 8rem;
+  }
+
+  .second-shop p {
+    margin-right: 0;
+  }
+
+  .second-shop .second-button {
+    margin-right: 7rem;
+  }
+
+  .about-us {
+    width: 42%;
+    margin-left: 1.5rem;
+  }
+
+  .about-us .about-img {
+    left: 18%;
+    bottom: 55%;
+  }
+
+  .about-us h2 {
+    margin-top: 8rem;
+  }
+
+  .about-us p {
+    margin-right: 0;
+  }
+
+  .about-us .about-button {
+    margin-right: 7rem;
+  }
+
+  .recipes {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
+  .recipes .paragraph h3 {
+    font-size: 2rem;
+    text-align: left;
+    left: 60%;
+    transform: translateY(-183%);
+    width: 37%;
+    margin: 0;
+  }
+
+    .recipes .btn-big {
+      font-size: 1.5rem;
+      width: 17%;
+    }
+
+    .second-rewards {
+      width: 42%;
+      margin: 0 1.5rem 8rem;
+    }
+
+    .second-rewards .reward-img {
+      left: 18%;
+      bottom: 55%;
+    }
+
+    .second-rewards h2 {
+      margin-top: 8rem;
+    }
+
+    .second-rewards p {
+      margin-right: 0;
+    }
+
+    .second-rewards .second-btn {
+      margin-right: 7rem;
+    }
+
+  .social {
+    margin-top: 4em;
+  }
 
 }
