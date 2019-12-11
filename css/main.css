@@ -1043,8 +1043,20 @@ a {
     font-size: 130%;
   }
 
+  nav {
+    padding-left: 22em;
+  }
+
+  ul {
+    width: 50%;
+  }
+
   li {
-    width: 15%;
+    width: 11%;
+  }
+
+  .navigation a {
+    padding-right: 4.5em;
   }
 
   .link-card .link-image {
