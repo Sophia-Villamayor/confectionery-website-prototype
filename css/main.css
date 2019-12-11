@@ -102,7 +102,6 @@ nav a:hover {
 
 .link-image {
   display: block;
-  position: absolute;
   text-align: left;
   width: 35%;
   margin: 1rem 0 0 1rem;
@@ -141,7 +140,6 @@ p {
 
 .catering {
   display: none;
-  position: absolute;
   border-radius: 3px;
   background-color: #dcd4cd;
   border: solid;
@@ -160,7 +158,6 @@ p {
 
 .catering-image {
   display: block;
-  position: absolute;
   text-align: left;
   width: 35%;
   margin: 1rem 0 0 1rem;
@@ -235,7 +232,7 @@ a {
   border: solid #835c3b;
   border-radius: 8px;
   padding: .5rem;
-  left: 68%;
+  left: 66%;
   transform: translateY(-160%);
 }
 
@@ -251,7 +248,6 @@ a {
 
 .second-shop {
   display: none;
-  position: relative;
   border-radius: 3px;
   background-color: #dcd4cd;
   border: solid;
@@ -270,7 +266,6 @@ a {
 
 .second-img {
   display: block;
-  position: absolute;
   text-align: left;
   width: 35%;
   margin: 1rem 0 0 1rem;
@@ -309,7 +304,6 @@ a {
 
 .about-us {
   display: none;
-  position: relative;
   border-radius: 3px;
   background-color: #dcd4cd;
   border: solid;
@@ -327,7 +321,6 @@ a {
 }
 
 .about-img {
-  position: absolute;
   text-align: left;
   width: 35%;
   margin: 1rem 0 0 1rem;
@@ -364,7 +357,7 @@ a {
 }
 
 .recipe {
-  position: relative;
+  position: absolute;
   margin-top: 1rem;
 }
 
@@ -399,8 +392,8 @@ a {
   border: solid;
   border-color: #835c3b;
   border-radius: 8px;
-  padding: .5rem 2rem;
-  left: 64%;
+  padding: .5rem 1rem;
+  left: 72%;
   transform: translateY(-130%);
 }
 
@@ -423,7 +416,6 @@ a {
 
 .rewards-card {
   display: block;
-  position: relative;
   border-radius: 3px;
   background-color: #dcd4cd;
   border: solid;
@@ -442,7 +434,6 @@ a {
 
 .reward {
   display: block;
-  position: absolute;
   text-align: left;
   width: 35%;
   margin: 1rem 0 0 1rem;
@@ -481,7 +472,6 @@ a {
 
 .second-rewards {
   display: none;
-  position: relative;
   border-radius: 3px;
   background-color: #dcd4cd;
   border: solid;
@@ -500,7 +490,6 @@ a {
 
 .reward-img {
   display: block;
-  position: absolute;
   text-align: left;
   width: 35%;
   margin: 1rem 0 0 1rem;
@@ -531,7 +520,7 @@ a {
 }
 
 .card {
-  padding-top: 1rem;
+  padding-left: 0;
   margin: 0;
   display: inline-block;
 }
@@ -575,7 +564,7 @@ a {
 }
 
 .social {
-  margin: 2rem 4rem;
+  margin: 2rem 0 0;
   padding: 0 .1rem;
   display: flex;
 }
@@ -603,7 +592,6 @@ a {
 
   .link-image {
     display: block;
-    position: absolute;
     text-align: left;
     width: 35%;
     bottom: 68%;
@@ -708,25 +696,29 @@ a {
 
   .link-card {
     display: inline-block;
-    margin-left: 1.5rem;
+    margin-left: .5rem;
     margin-right: .2rem;
+    width: 47%;
   }
 
   .link-image {
     display: block;
-    width: 24%;
-    left: 16%;
+    width: 50%;
+    left: 46%;
     bottom: 63%;
+    margin-left: 4rem;
   }
 
   .link-card h2 {
-    margin-top: 5.2rem;
+    text-align: center;
+    margin-top: 2rem;
     padding: 0 0 0 .5rem;
   }
 
   .link-card p {
     text-align: center;
     font-size: 1rem;
+    margin-right: 0;
   }
 
   .link-card .button {
@@ -735,19 +727,20 @@ a {
 
   .catering {
     display: inline-block;
-    width: 42%;
+    width: 47%;
     margin-left: .2rem;
   }
 
   .catering-image {
-    width: 57%;
+    width: 50%;
     left: 17%;
-    bottom: 60%;
+    bottom: 20%;
+    margin-left: 4rem;
   }
 
   .catering h2 {
     text-align: center;
-    margin: 5.2rem 0 0;
+    margin: 4rem 0 0;
     padding: 0 0 0 .5rem;
   }
 
@@ -767,31 +760,33 @@ a {
 
   .second-shop {
     display: inline-block;
-    width: 47.5%;
+    width: 47%;
     padding: 0;
-    margin-left: 1.5rem;
+    margin-left: .5rem;
   }
 
   .second-img {
     width: 50%;
-    left: 17%;
-    bottom: 60%;
+    left: 14%;
+    bottom: 31%;
+    margin-left: 4rem;
   }
 
   .second-shop h2 {
     text-align: center;
-    margin: 5.2rem 0 0;
+    margin: 4rem 0 0;
   }
 
   .second-shop p {
     font-size: 1rem;
     margin-bottom: .5rem;
+    margin-right: 0;
     text-align: center;
   }
 
   .second-shop .second-button {
     display: inline-block;
-    margin: 0 5rem 1rem 0;
+    margin-right: 4.5rem;
   }
 
   .rewards-card {
@@ -799,23 +794,23 @@ a {
   }
 
   .about-us {
-    float: right;
     display: inline-block;
-    width: 42%;
+    width: 47%;
     padding: 0;
-    margin-right: 1.5rem;
+    margin-left: .5rem;
   }
 
   .about-img {
     display: block;
-    width: 56%;
+    width: 50%;
     left: 17%;
     bottom: 61%;
+    margin-left: 4rem;
   }
 
   .about-us h2 {
     text-align: center;
-    margin: 5.2rem 0 0;
+    margin: 4rem 0 0;
   }
 
   .about-us p {
@@ -833,16 +828,17 @@ a {
   .second-rewards {
     float: right;
     display: inline-block;
-    width: 47.5%;
+    width: 47%;
     padding: 0;
-    margin-right: 1.5rem;
     margin-bottom: 2rem;
   }
 
   .reward-img {
+    display: block;
     width: 50%;
     left: 17%;
     bottom: 61%;
+    margin-left: 4rem;
   }
 
   .second-rewards h2 {
@@ -871,12 +867,16 @@ a {
     transform: translateY(-150%);
   }
 
+  .cards {
+    display: inline-block;
+    margin-left: 0;
+  }
+
   .card {
     display: inline-block;
-    position: absolute;
     padding: 0;
-    margin: 0;
-    width: 50%;
+    margin: 3rem 1rem 0 0;
+    width: 45%;
   }
 
   .card h2 {
@@ -906,13 +906,15 @@ a {
   }
 
   .link-card .link-image {
-    left: 12%;
+    width: 45%;
+    left: 16%;
+    margin-left: 5.5rem;
     bottom: 55%;
   }
 
   .link-card h2 {
     text-align: center;
-    margin-top: 8rem;
+    margin-top: 5rem;
   }
 
   .link-card p {
@@ -927,14 +929,17 @@ a {
     float: right;
     margin-right: 1.5rem;
     margin-left: 4.8rem;
+    width: 42%;
   }
 
   .catering .catering-image {
+    width: 45%;
     bottom: 55%;
+    margin-left: 5.5rem;
   }
 
   .catering h2 {
-    margin-top: 8rem;
+    margin-top: 5rem;
   }
 
   .catering p {
@@ -951,13 +956,14 @@ a {
   }
 
   .second-shop img {
-    width: 55%;
+    width: 45%;
     left: 17%;
     bottom: 55%;
+    margin-left: 5.5rem;
   }
 
   .second-shop h2 {
-    margin-top: 8rem;
+    margin-top: 5rem;
   }
 
   .second-shop p {
@@ -974,12 +980,14 @@ a {
   }
 
   .about-us .about-img {
+    width: 45%;
     left: 18%;
     bottom: 55%;
+    margin-left: 5.5rem;
   }
 
   .about-us h2 {
-    margin-top: 8rem;
+    margin-top: 5rem;
   }
 
   .about-us p {
@@ -1017,10 +1025,11 @@ a {
   .second-rewards .reward-img {
     left: 18%;
     bottom: 55%;
+    margin-left: 5.5rem;
   }
 
   .second-rewards h2 {
-    margin-top: 8rem;
+    margin-top: 5rem;
   }
 
   .second-rewards p {
