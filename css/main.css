@@ -926,9 +926,7 @@ a {
   }
 
   .catering {
-    float: right;
-    margin-right: 1.5rem;
-    margin-left: 4.8rem;
+    margin-left: 3rem;
     width: 42%;
   }
 
@@ -976,7 +974,7 @@ a {
 
   .about-us {
     width: 42%;
-    margin-left: 1.5rem;
+    margin-left: 3rem;
   }
 
   .about-us .about-img {
@@ -1015,6 +1013,10 @@ a {
   .recipes .btn-big {
     font-size: 1.5rem;
     width: 17%;
+  }
+
+  .card .chocolate-img {
+    margin-left: 6rem;
   }
 
   .second-rewards {
@@ -1069,9 +1071,10 @@ a {
   }
 
   .link-card .link-image {
-    width: 17.5%;
+    width: 42%;
     left: 14%;
     bottom: 57.3%;
+    margin-left: 9.5rem;
   }
 
   .link-card .button {
@@ -1082,6 +1085,7 @@ a {
     width: 42%;
     left: 26%;
     bottom: 48.5%;
+    margin-left: 9.5rem;
   }
 
   .catering .click {
@@ -1092,6 +1096,7 @@ a {
     width: 42%;
     left: 26%;
     bottom: 47.5%;
+    margin-left: 9.5rem;
   }
 
   .second-shop .second-button {
@@ -1106,6 +1111,7 @@ a {
     width: 42%;
     left: 26%;
     bottom: 47.5%;
+    margin-left: 9.5rem;
   }
 
   .about-us .about-button {
@@ -1141,23 +1147,26 @@ a {
     width: 42%;
     left: 26%;
     bottom: 48.5%;
+    margin-left: 9.5rem;
   }
 
   .second-rewards .second-btn {
     margin-right: 14rem;
   }
 
-  .card {
-    margin-left: 5rem;
+  .cards {
+    margin: 0;
   }
 
   .card img {
-    margin: 0 0 0 11rem;
+    display: block;
+    margin-left: 20rem;
     padding: 0;
   }
 
   .card h2 {
     font-size: 3rem;
+    margin-left: 5rem;
   }
 
   .card p {
